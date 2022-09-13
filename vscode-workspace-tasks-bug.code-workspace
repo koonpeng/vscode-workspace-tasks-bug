@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "./workspace_a"
+		},
+		{
+			"path": "./workspace_b"
+		}
+	],
+	"settings": {},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "echo",
+				"type": "shell",
+				"command": "echo ${workspaceFolder}"
+			}
+		]
+	}
+}
